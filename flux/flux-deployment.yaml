@@ -4,7 +4,7 @@ kind: Deployment
 metadata:
   name: flux
 spec:
-  replicas: 1
+  replicas: 101
   selector:
     matchLabels:
       name: flux
