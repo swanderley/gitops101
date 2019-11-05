@@ -100,7 +100,7 @@ spec:
         - --ssh-keygen-dir=/var/fluxd/keygen
 
         # replace or remove the following URL
-        - --git-url=git@github.com:swanderley/gitops101.git
+        - --git-url=git@github.com:swanderley/gitops101
         - --git-branch=master
         - --git-path=deploy/kubernetes
 
